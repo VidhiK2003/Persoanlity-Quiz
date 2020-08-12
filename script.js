@@ -96,5 +96,5 @@ function ArtAcademia(){
   }
 }
 function updateResult(){
-  if DarkAcademiaScore>
+  
 }
