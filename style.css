@@ -16,6 +16,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  .title{
+  color:white;
+  text-align:center;
+  font-family: 'Cookie', cursive;
+  font-size: 2em;
 }
 
 h2 {
@@ -25,11 +30,11 @@ h2 {
 
 .question {
   display: flex;
+    justify-content:space-around;
   margin-top: 2em;
 }
   
 .answer-choice img {
   display:flex;
-  justify-content:space-around;
   height: 10em;
 }
