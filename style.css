@@ -6,11 +6,12 @@ body {
 }
 
 h1 {
-  font-style: italic;
+  font-family: 'Rubik', sans-serif;;
   color: #373fff;
 }
 
 h2 {
+  font-family: 'Rubik', sans-serif;
   margin-top: 2em; 
 }
 
