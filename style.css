@@ -9,6 +9,14 @@ h1 {
   font-family: 'Rubik', sans-serif;;
   color: #373fff;
 }
+.banner{
+  background-image:url();
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 h2 {
   font-family: 'Rubik', sans-serif;
@@ -22,6 +30,6 @@ h2 {
   
 .answer-choice img {
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
   height: 10em;
 }
