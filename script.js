@@ -31,6 +31,8 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+var result = document.getElementById("result");
+
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
@@ -61,19 +63,38 @@ function DarkAcademia(){
  DarkAcademiaScore+=1 
  questionCount+=1 
  alert("You have great taste!")
+  
+  if (questionCount >= 4){
+      updateResult();
+  }
 }
 function LightAcademia(){
   LightAcademiaScore+=1
   questionCount+=1
   alert("That looks awesome!")
+  
+  if (questionCount >= 4){
+      updateResult();
+  }
 }
 function RomanticAcademia(){
   RomanticAcademiaScore+=1
   questionCount+=1
   alert("That's so pretty!")
+  
+  if (questionCount >= 4){
+      updateResult();
+  }
 }
 function ArtAcademia(){
   ArtAcademiaScore+=1
   questionCount+=1
   alert("Love your style!")
+  
+  if (questionCount >= 4){
+      updateResult();
+  }
+}
+function updateResult(){
+  if DarkAcademiaScore>
 }
