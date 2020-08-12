@@ -16,34 +16,63 @@ var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
 var q1a4 = document.getElementById("q1a4");
 
-var q2a1 = document.getElementById("q1a1");
-var q2a2 = document.getElementById("q1a2");
-var q2a3 = document.getElementById("q1a3");
-var q2a4 = document.getElementById("q1a4");
+var q2a1 = document.getElementById("q2a1");
+var q2a2 = document.getElementById("q2a2");
+var q2a3 = document.getElementById("q2a3");
+var q2a4 = document.getElementById("q2a4");
 
-var q3a1 = document.getElementById("q1a1");
-var q3a2 = document.getElementById("q1a2");
-var q3a3 = document.getElementById("q1a3");
-var q3a4 = document.getElementById("q1a4");
+var q3a1 = document.getElementById("q3a1");
+var q3a2 = document.getElementById("q3a2");
+var q3a3 = document.getElementById("q3a3");
+var q3a4 = document.getElementById("q3a4");
 
-var q4a1 = document.getElementById("q1a1");
-var q4a2 = document.getElementById("q1a2");
-var q4a3 = document.getElementById("q1a3");
-var q4a4 = document.getElementById("q1a4");
+var q4a1 = document.getElementById("q4a1");
+var q4a2 = document.getElementById("q4a2");
+var q4a3 = document.getElementById("q4a3");
+var q4a4 = document.getElementById("q4a4");
 
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", DarkAcademia);
+q1a2.addEventListener("click", LightAcademia);
+q1a3.addEventListener("click", RomanticAcademia);
+q1a4.addEventListener("click", ArtAcademia);
 
+q2a1.addEventListener("click", DarkAcademia);
+q2a2.addEventListener("click", LightAcademia);
+q2a3.addEventListener("click", RomanticAcademia);
+q2a4.addEventListener("click", ArtAcademia);
 
+q3a1.addEventListener("click", DarkAcademia);
+q3a2.addEventListener("click", LightAcademia);
+q3a3.addEventListener("click", RomanticAcademia);
+q3a4.addEventListener("click", ArtAcademia);
 
-
+q4a1.addEventListener("click", DarkAcademia);
+q4a2.addEventListener("click", LightAcademia);
+q4a3.addEventListener("click", RomanticAcademia);
+q4a4.addEventListener("click", ArtAcademia);
 
 
 
 //#TODO: Define quiz functions here
-function result1(){
+function DarkAcademia(){
+ DarkAcademi 
+  
+  
+}
+function LightAcademia(){
+  
+  
+  
+}
+function RomanticAcademia(){
+  
+  
+  
+}
+function ArtAcademia(){
   
   
   
