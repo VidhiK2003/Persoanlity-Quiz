@@ -58,22 +58,22 @@ q4a4.addEventListener("click", ArtAcademia);
 
 //#TODO: Define quiz functions here
 function DarkAcademia(){
- DarkAcademi 
-  
-  
+ DarkAcademiaScore+=1 
+ questionCount+=1 
+ alert("You have great taste!")
 }
 function LightAcademia(){
-  
-  
-  
+  LightAcademiaScore+=1
+  questionCount+=1
+  alert("That looks awesome!")
 }
 function RomanticAcademia(){
-  
-  
-  
+  RomanticAcademiaScore+=1
+  questionCount+=1
+  alert("That's so pretty!")
 }
 function ArtAcademia(){
-  
-  
-  
+  ArtAcademiaScore+=1
+  questionCount+=1
+  alert("Love your style!")
 }
