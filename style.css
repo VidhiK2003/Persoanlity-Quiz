@@ -12,7 +12,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity:0.5;
 }
   .QuizName{
   color: #373fff;
@@ -20,8 +19,7 @@ body {
     position:absolute;
     top:20%;
     left:1%;
-    bottom:20%;
-    opacity:1;
+  background-color:white;
 }
 
 h2 {
