@@ -100,5 +100,18 @@ function updateResult(){
   {result.innerHTML = "Romantic Academia!"}
   else if (ArtAcademiaScore>DarkAcademiaScore,ArtAcademiaScore>RomanticAcademiaScore,ArtAcademiaScore>LightAcademiaScore)
   {result.innerHTML = "Art Academia!"}
-  else if (Dark)
+  else if (DarkAcademiaScore==2,LightAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Dark And Light Academia!"}
+  else if (DarkAcademiaScore==2,RomanticAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Dark And Romantic Academia!"}
+  else if (DarkAcademiaScore==2,ArtAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Dark And Art Academia!"}
+  else if (RomanticAcademiaScore==2,LightAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Light And Romantic Academia!"}
+  else if (ArtAcademiaScore==2,LightAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Light And Art Academia!"}
+  else if (RomanticAcademiaScore==2,ArtAcademiaScore==2)
+  {result.innerHTML = "A Mix Of Romantic And Art Academia!"}
+  else
+  {result.innerHTML = "A Mix Of Dark, Light, Romantic And Art Academia!"}
 }
