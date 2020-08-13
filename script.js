@@ -195,3 +195,7 @@ function enableQuestions() {
   q4a3.disabled = false;
   q4a4.disabled = false;
 }
+
+document.getElementById("q1a1").addEventListener("click",style){
+  this.style.backgroundColor = "#D7BDE2 ";
+}
