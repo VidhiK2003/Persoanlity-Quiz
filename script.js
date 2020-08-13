@@ -92,25 +92,25 @@ function ArtAcademia(){
   }
 }
 function updateResult(){
-  if (DarkAcademiaScore>LightAcademiaScore,DarkAcademiaScore>RomanticAcademiaScore,DarkAcademiaScore>ArtAcademiaScore)
+  if (DarkAcademiaScore>LightAcademiaScore&&DarkAcademiaScore>RomanticAcademiaScore&&DarkAcademiaScore>ArtAcademiaScore)
   {result.innerHTML = "Dark Academia!";}
-  else if (LightAcademiaScore>DarkAcademiaScore,LightAcademiaScore>RomanticAcademiaScore,LightAcademiaScore>ArtAcademiaScore)
+  else if (LightAcademiaScore>DarkAcademiaScore&&LightAcademiaScore>RomanticAcademiaScore&&LightAcademiaScore>ArtAcademiaScore)
   {result.innerHTML = "Light Academia!"}
-  else if (RomanticAcademiaScore>DarkAcademiaScore,RomanticAcademiaScore>LightAcademiaScore,RomanticAcademiaScore>ArtAcademiaScore)
+  else if (RomanticAcademiaScore>DarkAcademiaScore&&RomanticAcademiaScore>LightAcademiaScore&&RomanticAcademiaScore>ArtAcademiaScore)
   {result.innerHTML = "Romantic Academia!"}
-  else if (ArtAcademiaScore>DarkAcademiaScore,ArtAcademiaScore>RomanticAcademiaScore,ArtAcademiaScore>LightAcademiaScore)
+  else if (ArtAcademiaScore>DarkAcademiaScore&&ArtAcademiaScore>RomanticAcademiaScore&&ArtAcademiaScore>LightAcademiaScore)
   {result.innerHTML = "Art Academia!"}
-  else if (DarkAcademiaScore==2,LightAcademiaScore==2)
+  else if (DarkAcademiaScore==2&&LightAcademiaScore==2)
   {result.innerHTML = "A Mix Of Dark And Light Academia!"}
-  else if (DarkAcademiaScore==2,RomanticAcademiaScore==2)
+  else if (DarkAcademiaScore==2&&RomanticAcademiaScore==2)
   {result.innerHTML = "A Mix Of Dark And Romantic Academia!"}
-  else if (DarkAcademiaScore==2,ArtAcademiaScore==2)
+  else if (DarkAcademiaScore==2&&ArtAcademiaScore==2)
   {result.innerHTML = "A Mix Of Dark And Art Academia!"}
-  else if (RomanticAcademiaScore==2,LightAcademiaScore==2)
+  else if (RomanticAcademiaScore==2&&LightAcademiaScore==2)
   {result.innerHTML = "A Mix Of Light And Romantic Academia!"}
-  else if (ArtAcademiaScore==2,LightAcademiaScore==2)
+  else if (ArtAcademiaScore==2&&LightAcademiaScore==2)
   {result.innerHTML = "A Mix Of Light And Art Academia!"}
-  else if (RomanticAcademiaScore==2,ArtAcademiaScore==2)
+  else if (RomanticAcademiaScore==2&&ArtAcademiaScore==2)
   {result.innerHTML = "A Mix Of Romantic And Art Academia!"}
   else
   {result.innerHTML = "A Mix Of Dark, Light, Romantic And Art Academia!"}
