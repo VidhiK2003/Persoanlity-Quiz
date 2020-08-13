@@ -32,6 +32,7 @@ var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
 var result = document.getElementById("result");
+var retake = document.getElementById("retake");
 
 
 
@@ -55,6 +56,8 @@ q4a1.addEventListener("click", DarkAcademia);
 q4a2.addEventListener("click", LightAcademia);
 q4a3.addEventListener("click", RomanticAcademia);
 q4a4.addEventListener("click", ArtAcademia);
+
+retake.addEventListener("click", )
 
 
 
