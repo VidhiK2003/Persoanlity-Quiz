@@ -66,7 +66,7 @@ function DarkAcademia(){
  DarkAcademiaScore+=1 
  questionCount+=1 
   
-  if (questionCount >= 4){
+  if (questionCount == 4){
       updateResult();
   }
 }
@@ -74,7 +74,7 @@ function LightAcademia(){
   LightAcademiaScore+=1
   questionCount+=1
   
-  if (questionCount >= 4){
+  if (questionCount == 4){
       updateResult();
   }
 }
@@ -82,7 +82,7 @@ function RomanticAcademia(){
   RomanticAcademiaScore+=1
   questionCount+=1
   
-  if (questionCount >= 4){
+  if (questionCount == 4){
       updateResult();
   }
 }
@@ -90,7 +90,7 @@ function ArtAcademia(){
   ArtAcademiaScore+=1
   questionCount+=1
   
-  if (questionCount >= 4){
+  if (questionCount == 4){
       updateResult();
   }
 }
