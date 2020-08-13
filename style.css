@@ -69,3 +69,7 @@ h2 {
 #q4a4 {background-color:#F7DC6F;}
 
 #retake {background-color:#F1C40F;}
+
+button {
+  border-radius:5%;
+}
