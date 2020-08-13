@@ -59,6 +59,7 @@ q4a3.addEventListener("click", RomanticAcademia);
 q4a4.addEventListener("click", ArtAcademia);
 
 retake.addEventListener("click", retakeQuiz);
+retake.addEventListener("click", topFunction);
 
 
 
@@ -198,7 +199,7 @@ function enableQuestions() {
   q4a3.disabled = false;
   q4a4.disabled = false;
 }
-
+//This one here will reset all your buttons to the OG colours
 function colorReset(){
   q1a1.style.backgroundColor = "#F7DC6F";
   q1a2.style.backgroundColor = "#F7DC6F";
@@ -238,3 +239,8 @@ document.getElementById("q4a1").addEventListener("click", function(){this.style.
 document.getElementById("q4a2").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
 document.getElementById("q4a3").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
 document.getElementById("q4a4").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
