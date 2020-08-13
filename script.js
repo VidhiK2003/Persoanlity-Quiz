@@ -196,6 +196,23 @@ function enableQuestions() {
   q4a4.disabled = false;
 }
 
-document.getElementById("q1a1").addEventListener("click",style){
-  this.style.backgroundColor = "#D7BDE2 ";
-}
+//Vidhi: 
+document.getElementById("q1a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q1a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q1a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q1a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+
+document.getElementById("q2a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q2a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q2a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q2a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+
+document.getElementById("q3a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q3a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q3a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q3a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+
+document.getElementById("q4a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q4a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q4a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q4a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
