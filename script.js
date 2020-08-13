@@ -127,7 +127,7 @@ function retakeQuiz() {
   RomanticAcademiaScore = 0;
   ArtAcademiaScore = 0;
   enableQuestions();
-  
+  colorReset();
 }
 
 //Here on most of the similar looking stuff is to disable the buttons once an answer is selceted so that we get an accurate calculation.
@@ -197,6 +197,25 @@ function enableQuestions() {
   q4a2.disabled = false;
   q4a3.disabled = false;
   q4a4.disabled = false;
+}
+
+function colorReset(){
+  q1a1.style.backgroundColor = "#82E0AA";
+  q1a2.style.backgroundColor = "#82E0AA";
+  q1a3.style.backgroundColor = "#82E0AA";
+  q1a4.style.backgroundColor = "#82E0AA";
+  q2a1.style.backgroundColor = "#7DCEA0";
+  q2a2.style.backgroundColor = "#7DCEA0";
+  q2a3.style.backgroundColor = "#7DCEA0";
+  q2a4.style.backgroundColor = "#7DCEA0";
+  q3a1.style.backgroundColor = "#73C6B6";
+  q3a2.style.backgroundColor = "#73C6B6";
+  q3a3.style.backgroundColor = "#73C6B6";
+  q3a4.style.backgroundColor = "#73C6B6";
+  q4a1.style.backgroundColor = "#76D7C4";
+  q4a2.style.backgroundColor = "#76D7C4";
+  q4a3.style.backgroundColor = "#76D7C4";
+  q4a4.style.backgroundColor = "#76D7C4";
 }
 
 //Vidhi: This colours our buttons and makes them pop when selected. Awesome, right!
