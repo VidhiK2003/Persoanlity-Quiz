@@ -179,7 +179,7 @@ q4a2.addEventListener("click", disableQ4);
 q4a3.addEventListener("click", disableQ4);
 q4a4.addEventListener("click", disableQ4);
 
-//Except this here enables them again when you rset the quiz
+//Except this here enables them again when you reset the quiz
 function enableQuestions() {
   q1a1.disabled = false;
   q1a2.disabled = false;
