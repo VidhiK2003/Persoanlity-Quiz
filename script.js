@@ -92,6 +92,13 @@ function ArtAcademia(){
   }
 }
 function updateResult(){
-  if ()
-  
+  if (DarkAcademiaScore>LightAcademiaScore,DarkAcademiaScore>RomanticAcademiaScore,DarkAcademiaScore>ArtAcademiaScore)
+  {result.innerHTML = "Dark Academia!";}
+  else if (LightAcademiaScore>DarkAcademiaScore,LightAcademiaScore>RomanticAcademiaScore,LightAcademiaScore>ArtAcademiaScore)
+  {result.innerHTML = "Light Academia!"}
+  else if (RomanticAcademiaScore>DarkAcademiaScore,RomanticAcademiaScore>LightAcademiaScore,RomanticAcademiaScore>ArtAcademiaScore)
+  {result.innerHTML = "Romantic Academia!"}
+  else if (ArtAcademiaScore>DarkAcademiaScore,ArtAcademiaScore>RomanticAcademiaScore,ArtAcademiaScore>LightAcademiaScore)
+  {result.innerHTML = "Art Academia!"}
+  else if (Dark)
 }
