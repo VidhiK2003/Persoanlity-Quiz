@@ -200,41 +200,41 @@ function enableQuestions() {
 }
 
 function colorReset(){
-  q1a1.style.backgroundColor = "#82E0AA";
-  q1a2.style.backgroundColor = "#82E0AA";
-  q1a3.style.backgroundColor = "#82E0AA";
-  q1a4.style.backgroundColor = "#82E0AA";
-  q2a1.style.backgroundColor = "#7DCEA0";
-  q2a2.style.backgroundColor = "#7DCEA0";
-  q2a3.style.backgroundColor = "#7DCEA0";
-  q2a4.style.backgroundColor = "#7DCEA0";
-  q3a1.style.backgroundColor = "#73C6B6";
-  q3a2.style.backgroundColor = "#73C6B6";
-  q3a3.style.backgroundColor = "#73C6B6";
-  q3a4.style.backgroundColor = "#73C6B6";
-  q4a1.style.backgroundColor = "#76D7C4";
-  q4a2.style.backgroundColor = "#76D7C4";
-  q4a3.style.backgroundColor = "#76D7C4";
-  q4a4.style.backgroundColor = "#76D7C4";
+  q1a1.style.backgroundColor = "#F7DC6F";
+  q1a2.style.backgroundColor = "#F7DC6F";
+  q1a3.style.backgroundColor = "#F7DC6F";
+  q1a4.style.backgroundColor = "#F7DC6F";
+  q2a1.style.backgroundColor = "#F7DC6F";
+  q2a2.style.backgroundColor = "#F7DC6F";
+  q2a3.style.backgroundColor = "#F7DC6F";
+  q2a4.style.backgroundColor = "#F7DC6F";
+  q3a1.style.backgroundColor = "#F7DC6F";
+  q3a2.style.backgroundColor = "#F7DC6F";
+  q3a3.style.backgroundColor = "#F7DC6F";
+  q3a4.style.backgroundColor = "#F7DC6F";
+  q4a1.style.backgroundColor = "#F7DC6F";
+  q4a2.style.backgroundColor = "#F7DC6F";
+  q4a3.style.backgroundColor = "#F7DC6F";
+  q4a4.style.backgroundColor = "#F7DC6F";
 }
 
 //Vidhi: This colours our buttons and makes them pop when selected. Awesome, right!
-document.getElementById("q1a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q1a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q1a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q1a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q1a1").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q1a2").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q1a3").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q1a4").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
 
-document.getElementById("q2a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q2a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q2a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q2a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q2a1").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q2a2").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q2a3").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q2a4").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
 
-document.getElementById("q3a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q3a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q3a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q3a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q3a1").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q3a2").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q3a3").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q3a4").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
 
-document.getElementById("q4a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q4a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q4a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
-document.getElementById("q4a4").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
+document.getElementById("q4a1").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q4a2").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q4a3").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
+document.getElementById("q4a4").addEventListener("click", function(){this.style.backgroundColor = "#F9E79F ";});
