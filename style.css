@@ -6,12 +6,13 @@ body {
 }
 
 .banner{
-  background-image:url(https://cdn.glitch.com/a5d2dff2-8ec6-4a00-bfe8-a887940ada9d%2Fbernard-hermant-wGYyOGDFfMI-unsplash.jpg?v=1597257363654);
+  background-image:url(https://cdn.glitch.com/a5d2dff2-8ec6-4a00-bfe8-a887940ada9d%2Fjanko-ferlic-sfL_QOnmy00-unsplash.jpg?v=1597301579888);
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity:0.5;
 }
   .QuizName{
   color: #373fff;
@@ -20,6 +21,7 @@ body {
     top:20%;
     left:1%;
     bottom:20%;
+    opacity:1;
 }
 
 h2 {
