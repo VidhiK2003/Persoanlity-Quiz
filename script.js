@@ -165,6 +165,18 @@ q3a2.addEventListener("click", disableQ3);
 q3a3.addEventListener("click", disableQ3);
 q3a4.addEventListener("click", disableQ3);
 
+function disableQ4() {
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+}
+
+q4a1.addEventListener("click", disableQ4);
+q4a2.addEventListener("click", disableQ4);
+q4a3.addEventListener("click", disableQ4);
+q4a4.addEventListener("click", disableQ4);
+
 function enableQuestions() {
   q1a1.disabled = false;
   q1a2.disabled = false;
@@ -178,4 +190,8 @@ function enableQuestions() {
   q3a2.disabled = false;
   q3a3.disabled = false;
   q3a4.disabled = false;
+  q4a1.disabled = false;
+  q4a2.disabled = false;
+  q4a3.disabled = false;
+  q4a4.disabled = false;
 }
