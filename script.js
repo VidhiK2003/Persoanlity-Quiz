@@ -37,6 +37,7 @@ var retake = document.getElementById("retake");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
+//This here means that when these buttons are clicked their corresponding functions, as we define them below, will be performed
 q1a1.addEventListener("click", DarkAcademia);
 q1a2.addEventListener("click", LightAcademia);
 q1a3.addEventListener("click", RomanticAcademia);
@@ -62,10 +63,10 @@ retake.addEventListener("click", retakeQuiz);
 
 
 //#TODO: Define quiz functions here
+//This is basically setting up the calculation system, adding up and keeping track of score
 function DarkAcademia(){
  DarkAcademiaScore+=1 
  questionCount+=1 
-  
   if (questionCount == 4){
       updateResult();
   }
@@ -73,7 +74,6 @@ function DarkAcademia(){
 function LightAcademia(){
   LightAcademiaScore+=1
   questionCount+=1
-  
   if (questionCount == 4){
       updateResult();
   }
@@ -81,7 +81,6 @@ function LightAcademia(){
 function RomanticAcademia(){
   RomanticAcademiaScore+=1
   questionCount+=1
-  
   if (questionCount == 4){
       updateResult();
   }
@@ -89,11 +88,11 @@ function RomanticAcademia(){
 function ArtAcademia(){
   ArtAcademiaScore+=1
   questionCount+=1
-  
   if (questionCount == 4){
       updateResult();
   }
 }
+//This is the result calculation and declaration...
 function updateResult(){
   if (DarkAcademiaScore>LightAcademiaScore&&DarkAcademiaScore>RomanticAcademiaScore&&DarkAcademiaScore>ArtAcademiaScore)
   {result.innerHTML = "Dark Academia!";}
@@ -119,6 +118,7 @@ function updateResult(){
   {result.innerHTML = "A Mix Of Dark, Light, Romantic And Art Academia!"}
 }
 
+//This resets the quiz, allowing us to have fun doing it again.
 function retakeQuiz() {
   result.innerHTML = ""; 
   questionCount = 0; 
@@ -127,8 +127,10 @@ function retakeQuiz() {
   RomanticAcademiaScore = 0;
   ArtAcademiaScore = 0;
   enableQuestions();
+  
 }
 
+//Here on most of the similar looking stuff is to disable the buttons once an answer is selceted so that we get an accurate calculation.
 function disableQ1() {
   q1a1.disabled = true;
   q1a2.disabled = true;
@@ -177,6 +179,7 @@ q4a2.addEventListener("click", disableQ4);
 q4a3.addEventListener("click", disableQ4);
 q4a4.addEventListener("click", disableQ4);
 
+//Except this here enables them again when you rset the quiz
 function enableQuestions() {
   q1a1.disabled = false;
   q1a2.disabled = false;
@@ -196,7 +199,7 @@ function enableQuestions() {
   q4a4.disabled = false;
 }
 
-//Vidhi: 
+//Vidhi: This colours our buttons and makes them pop when selected. Awesome, right!
 document.getElementById("q1a1").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
 document.getElementById("q1a2").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
 document.getElementById("q1a3").addEventListener("click", function(){this.style.backgroundColor = "#D7BDE2 ";});
